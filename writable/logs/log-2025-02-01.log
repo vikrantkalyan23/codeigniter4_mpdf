@@ -1,0 +1,94 @@
+CRITICAL - 2025-02-01 07:56:38 --> Error: Class "App\Controllers\Mpdf" not found
+in APPPATH/Controllers/PdfController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\PdfController->generatePDF()
+ 2 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-01 07:56:41 --> Error: Class "App\Controllers\Mpdf" not found
+in APPPATH/Controllers/PdfController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\PdfController->generatePDF()
+ 2 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-01 08:09:54 --> Error: Class "App\Controllers\MpdfGenerator" not found
+in APPPATH/Controllers/PdfController.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\PdfController->generatePDF()
+ 2 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-01 08:39:37 --> Error: Class "Mpdf\Mpdf" not found
+in APPPATH/Libraries/MpdfGenerator.php on line 11.
+ 1 APPPATH/Controllers/PdfController.php(16): App\Libraries\MpdfGenerator->generate('<h1>Hello, CodeIgniter 4 with mPDF!</h1>
+                 <p>This is a dynamically generated PDF document.</p>', 'myfile.pdf', 'I')
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\PdfController->generatePDF()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-01 08:39:38 --> Error: Class "Mpdf\Mpdf" not found
+in APPPATH/Libraries/MpdfGenerator.php on line 11.
+ 1 APPPATH/Controllers/PdfController.php(16): App\Libraries\MpdfGenerator->generate('<h1>Hello, CodeIgniter 4 with mPDF!</h1>
+                 <p>This is a dynamically generated PDF document.</p>', 'myfile.pdf', 'I')
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\PdfController->generatePDF()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-01 08:41:54 --> ErrorException: Trait "Mpdf\Strict" not found
+in APPPATH/ThirdParty/mpdf/src/Mpdf.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-01 08:41:54 --> ErrorException: Trait "Mpdf\Strict" not found
+in APPPATH/ThirdParty/mpdf/src/Mpdf.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-01 08:41:55 --> ErrorException: Trait "Mpdf\Strict" not found
+in APPPATH/ThirdParty/mpdf/src/Mpdf.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-01 08:42:42 --> ErrorException: Trait "Mpdf\Strict" not found
+in APPPATH/ThirdParty/mpdf/src/Mpdf.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-01 08:48:15 --> ErrorException: Trait "Mpdf\Strict" not found
+in APPPATH/ThirdParty/mpdf/src/Mpdf.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-01 08:48:16 --> ErrorException: Trait "Mpdf\Strict" not found
+in APPPATH/ThirdParty/mpdf/src/Mpdf.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-01 08:48:16 --> ErrorException: Trait "Mpdf\Strict" not found
+in APPPATH/ThirdParty/mpdf/src/Mpdf.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-01 08:48:16 --> ErrorException: Trait "Mpdf\Strict" not found
+in APPPATH/ThirdParty/mpdf/src/Mpdf.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-01 08:48:16 --> ErrorException: Trait "Mpdf\Strict" not found
+in APPPATH/ThirdParty/mpdf/src/Mpdf.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-01 08:48:16 --> ErrorException: Trait "Mpdf\Strict" not found
+in APPPATH/ThirdParty/mpdf/src/Mpdf.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-01 08:48:16 --> ErrorException: Trait "Mpdf\Strict" not found
+in APPPATH/ThirdParty/mpdf/src/Mpdf.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-01 08:48:16 --> ErrorException: Trait "Mpdf\Strict" not found
+in APPPATH/ThirdParty/mpdf/src/Mpdf.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-01 08:48:16 --> ErrorException: Trait "Mpdf\Strict" not found
+in APPPATH/ThirdParty/mpdf/src/Mpdf.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-01 08:48:16 --> ErrorException: Trait "Mpdf\Strict" not found
+in APPPATH/ThirdParty/mpdf/src/Mpdf.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-01 08:48:17 --> ErrorException: Trait "Mpdf\Strict" not found
+in APPPATH/ThirdParty/mpdf/src/Mpdf.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-01 08:49:11 --> ErrorException: Trait "Mpdf\Strict" not found
+in APPPATH/ThirdParty/mpdf/src/Mpdf.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-01 08:55:48 --> ErrorException: Trait "Mpdf\Strict" not found
+in APPPATH/ThirdParty/mpdf/src/Mpdf.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-01 08:58:18 --> ErrorException: require_once(/Applications/AMPPS/www/codeigniter4_mpdf/app/ThirdParty/mpdf/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH/Libraries/MpdfLibrary.php on line 13.
+ 1 APPPATH/Libraries/MpdfLibrary.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(/Applications/AMPPS/www/codeigniter4_mpdf/app/ThirdParty/mpdf/vendor/autoload.php): Failed to open stream: No such file or directory', '/Applications/AMPPS/www/codeigniter4_mpdf/app/Libraries/MpdfLibrary.php', 13)
+ 2 APPPATH/Libraries/MpdfLibrary.php(13): require_once()
+ 3 APPPATH/Controllers/PdfController.php(12): App\Libraries\MpdfLibrary->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\PdfController->generatePdf()
+ 5 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
