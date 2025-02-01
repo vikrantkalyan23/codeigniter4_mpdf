@@ -4,7 +4,7 @@ namespace App\Libraries;
 
 use Mpdf\Mpdf;
 
-class PdfGenerator
+class MpdfGenerator
 {
     public function generate($html, $filename = 'document.pdf', $outputMode = 'I')
     {

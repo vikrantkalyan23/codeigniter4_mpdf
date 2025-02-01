@@ -5,5 +5,5 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Home::index');
-$routes->get('generate-pdf', 'PdfController::generatePDF');
+//$routes->get('/', 'Home::index');
+$routes->get('/', 'PdfController::generatePDF');
